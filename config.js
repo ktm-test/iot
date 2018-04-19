@@ -21,7 +21,7 @@ exports.creds = {
 
   // Required, the reply URL registered in AAD for your app
   //redirectUrl: 'http://localhost:3000/auth/openid/return', 
-    redirectUrl: 'http://xc2apitest.azurewebsites.net',
+    redirectUrl: 'https://xc2apitest.azurewebsites.net',
 
   // Required if we use http for redirectUrl
   allowHttpForRedirectUrl: true,
