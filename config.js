@@ -1,7 +1,7 @@
 exports.hubCS = "HostName=KTMIoTDev.azure-devices.net;SharedAccessKeyName=registryReadWrite;SharedAccessKey=tsSwG/1wQRKbDhaz/mlNSBhD6aibp+DlsPUYqOPkzSU=";
 exports.creds = {
   // Required
-  identityMetadata: 'https://login.microsoftonline.com/microsoft.onmicrosoft.com/v2.0/.well-known/openid-configuration', 
+    identityMetadata: 'https://login.microsoftonline.com/crossindustries.onmicrosoft.com/v2.0/.well-known/openid-configuration', 
   //identityMetadata: 'https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration',
   // or equivalently: 'https://login.microsoftonline.com/<tenant_guid>/v2.0/.well-known/openid-configuration'
   //
