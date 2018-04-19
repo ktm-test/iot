@@ -16,7 +16,7 @@ exports.creds = {
   // If you want to get access_token, you must use 'code', 'code id_token' or 'id_token code' 
   responseType: 'code id_token', 
 
-  // Required
+  // Required // test
   responseMode: 'form_post', 
 
   // Required, the reply URL registered in AAD for your app
