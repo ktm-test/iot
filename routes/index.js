@@ -47,6 +47,9 @@ router.get('/', ensureAuthenticated, function (req, res) {
   res.redirect('/register');
 });
 
+router.post('/', function (req, res) {
+    res.redirect('/register');
+});
 
 // '/register' is only available to logged in user
 router.get('/register', function (req, res) {
