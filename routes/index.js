@@ -47,7 +47,8 @@ router.get('/', ensureAuthenticated, function (req, res) {
   res.redirect('/register');
 });
 
-router.post('/', function (req, res) {
+router.post('/', ensureAuthenticated, function (req, res) {
+    console.log(req.user);
     res.redirect('/register');
 });
 
