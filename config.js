@@ -1,4 +1,4 @@
-exports.hubCS = "HostName=luca-cgw.azure-devices.net;SharedAccessKeyName=registryReadWrite;SharedAccessKey=er4KbjY132pg5+tQ0gP/Oi7JOi6iD/ScARM1Ly+Tz04=";
+exports.hubCS = "HostName=KTMIoTDev.azure-devices.net;SharedAccessKeyName=registryReadWrite;SharedAccessKey=tsSwG/1wQRKbDhaz/mlNSBhD6aibp+DlsPUYqOPkzSU=";
 exports.creds = {
   // Required
   identityMetadata: 'https://login.microsoftonline.com/microsoft.onmicrosoft.com/v2.0/.well-known/openid-configuration', 
@@ -10,7 +10,7 @@ exports.creds = {
   // To use the common endpoint, you have to either turn `validateIssuer` off, or provide the `issuer` value.
 
   // Required, the client ID of your app in AAD  
-  clientID: 'fe6c9817-ea3d-4c29-b6c5-2f91609ac092',
+  clientID: 'e6fe2151-d8ec-44d0-ac62-4047d83de0f7',
 
   // Required, must be 'code', 'code id_token', 'id_token code' or 'id_token'
   // If you want to get access_token, you must use 'code', 'code id_token' or 'id_token code' 
@@ -21,14 +21,14 @@ exports.creds = {
 
   // Required, the reply URL registered in AAD for your app
   //redirectUrl: 'http://localhost:3000/auth/openid/return', 
-  redirectUrl: 'https://ktm-luca.azurewebsites.net/auth/openid/return',
+    redirectUrl: 'http://xc2apitest.azurewebsites.net',
 
   // Required if we use http for redirectUrl
   allowHttpForRedirectUrl: true,
 
   // Required if `responseType` is 'code', 'id_token code' or 'code id_token'. 
   // If app key contains '\', replace it with '\\'.
-  clientSecret: 'Pu88BJOsHuhVydHTJKvt9rKXy6rdIL6M/Fe/l2L9M1o=', 
+  clientSecret: 'L7FDg1TXcnyPwnomAlvRlTi7UhTL3llXS5Pcs9ISeHk=', 
 
   // Required to set to false if you don't want to validate issuer
   validateIssuer: false,
